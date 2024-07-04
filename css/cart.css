@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --primary-color:#d47c2f;
+    --secondary-color:rgb(255, 183, 0);
+    --third-color:#f7f8fa;
+    --forth-color:#eb984e;
+    --black:black;
+    --white:white;
+    --fifth-color:rgb(66, 64, 64);
+    --text-color:#6c798b;
+  }
+
+  section,header,footer,nav{
+    padding-bottom: 10px;
+  }
+
+body{
+    color:  var(--text-color);
+}
+
+header{
+    display: flex;
+    margin-top: 30px;
+    max-width: 100%;
+   flex-wrap: wrap;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.heading{
+    width: 55%;
+    text-align:right;
+    margin-right: 500px;
+    padding: 5px;
+}
+
+.search-icon{
+    border-right: 1px solid var(--text-color);
+    padding: 20px;
+}
+
+.search-icon a{
+    text-decoration: none;
+    color:  var(--text-color);
+}
+
+.cart-icon a{
+    text-decoration: none;
+    color:  var(--text-color);
+}
+
+.cart-icon{
+    padding:20px
+}
+
+nav{
+    width:100%;
+   border-top: 1px solid  var(--text-color);
+    text-align: center;
+   padding: 20px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+nav ul{
+    display: flex;
+   list-style: none; 
+   justify-content: space-evenly;
+   max-width: 400px;
+  
+   text-align: center;
+   padding: 10px;
+   margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+   
+}
+
+nav a:hover {
+    border-top:4px solid #d47c2f;
+    padding-top: 28px;
+}
+
+
+.active{
+    border-top:4px solid #d47c2f;
+    padding-top: 28px;
+}
+
+
+
+footer{
+    background-color: #2d3749;
+    color: var(--white);
+    max-width: 1880px;
+
+}
+
+.footer{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-h4{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.follow-us a{
+    text-decoration: none;
+    color: var(--white);
+  }
+.payment{
+    
+}
+
+.pay-img{
+    width: 50px;
+ display: flex;
+justify-content: space-between;
+margin-left: 20px;
+
+
+}
+
+.pay-img img{
+
+    max-width: 100%;
+    margin: 0px 5px;
+}
+
+.new-letter input{
+    max-width: 100%;
+    padding:10px 30px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.new-letter button{
+    max-width: 100%;
+    padding:10px 78px;
+    font-weight: 900;
+    background-color:var(--white);
+    border: 1px solid var(--white);
+    color: #EB984E;
+    transition: all 0.8s;
+}
+
+.new-letter button:hover{
+    background-color: whitesmoke;
+}
+
+
+.container{
+    background-color: var(--white);
+    max-width: 1880px;
+ 
+}
+
+.main{
+    max-width: 1200px;
+    padding: 30px;
+    margin: auto;
+   
+   
+}
+
+.div1{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+}
+
+.item{
+    flex-grow: 2; 
+
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.item-product{
+    display: flex;
+    justify-content: left;
+padding-top: 30px;
+}
+
+
+
+.item-img{
+    width: 150px;
+    height: 100px;
+
+  
+}
+
+.item-img img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+}
+
+.item-content p{
+    color: #EB984E;
+   line-height: 40px;
+}
+
+.item-content{
+    align-self: center;
+ 
+}
+
+.remove i{
+    color: red;
+}
+
+.quentiy{
+    align-self: center;
+}
+
+
+.margin-top{
+margin-top: 40px;
+padding-top: 30px;
+margin-left: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    transition: all 0.8s;
+}
+
+.button1{
+    padding: 10px 40px;
+    border: 1px solid #d47c2f;
+    background-color: transparent;
+    font-size: 16px;
+    transition: all 0.8s;
+}
+.button1:hover a{
+  color: var(--white);
+}
+
+.button1:hover{
+    background-color: #d47c2f;
+}
+.button2:hover a{
+  color: #d47c2f;
+}
+
+.button2:hover{
+    background-color: var(--white);
+    border: 1px solid #d47c2f;
+}
+
+
+
+.button2{
+    padding: 10px 35px;
+    background-color: #d47c2f;
+    border: none;
+    font-size: 16px;
+    transition: all 0.8s;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: #d47c2f;
+}
+
+.button2 a{
+    text-decoration: none;
+    color:  var(--white);
+}
